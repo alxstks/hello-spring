@@ -43,6 +43,13 @@ public class HelloController {
                 "<body>" +
                 "<form action='hello' method='post'>" + //submit a request to /hello
                 "<input type='text' name='name'>" +
+                "<select name='language' id='language-select'>" +
+                "<option value='English'>English</option>" +
+                "<option value='French'>French</option>" +
+                "<option value='Spanish'>Spanish</option>" +
+                "<option value='German'>German</option>" +
+                "<option value='Pig Latin'>Pig Latin</option>" +
+                "</select>" +
                 "<input type='submit' value='Greet me!'>" +
                 "</form" +
                 "</body>" +
